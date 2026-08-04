@@ -10,21 +10,20 @@
   body {
     @apply text-fairytale-forest font-serif;
     background:
-      radial-gradient(ellipse at 25% 40%, rgba(255, 215, 120, 0.25) 0%, transparent 45%),
-      radial-gradient(ellipse at 75% 30%, rgba(232, 180, 200, 0.2) 0%, transparent 40%),
-      radial-gradient(ellipse at 85% 70%, rgba(200, 150, 230, 0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 20%, rgba(255, 255, 255, 0.3) 0%, transparent 40%),
+      radial-gradient(ellipse at 30% 50%, rgba(255, 200, 100, 0.2) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 60%, rgba(200, 100, 150, 0.15) 0%, transparent 50%),
       linear-gradient(to bottom,
-        #FFFBF7 0%,
-        #FFF3EB 10%,
-        #FFEAE0 20%,
-        #FFE1D6 30%,
-        #F5D4CB 40%,
-        #EFC9CC 50%,
-        #E8BDD4 60%,
-        #E0B2DC 70%,
-        #D8A6E4 80%,
-        #CC98EC 90%,
-        #C08CF4 100%
+        #87CEEB 0%,
+        #B0E0E6 15%,
+        #FFE4B5 25%,
+        #FFDAB9 35%,
+        #FFD7B5 45%,
+        #E8D4C8 55%,
+        #D9C5D0 65%,
+        #C8B5D0 75%,
+        #A89FD0 85%,
+        #90A090 100%
       );
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -35,21 +34,20 @@
 
   html {
     background:
-      radial-gradient(ellipse at 25% 40%, rgba(255, 215, 120, 0.25) 0%, transparent 45%),
-      radial-gradient(ellipse at 75% 30%, rgba(232, 180, 200, 0.2) 0%, transparent 40%),
-      radial-gradient(ellipse at 85% 70%, rgba(200, 150, 230, 0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 20%, rgba(255, 255, 255, 0.3) 0%, transparent 40%),
+      radial-gradient(ellipse at 30% 50%, rgba(255, 200, 100, 0.2) 0%, transparent 50%),
+      radial-gradient(ellipse at 70% 60%, rgba(200, 100, 150, 0.15) 0%, transparent 50%),
       linear-gradient(to bottom,
-        #FFFBF7 0%,
-        #FFF3EB 10%,
-        #FFEAE0 20%,
-        #FFE1D6 30%,
-        #F5D4CB 40%,
-        #EFC9CC 50%,
-        #E8BDD4 60%,
-        #E0B2DC 70%,
-        #D8A6E4 80%,
-        #CC98EC 90%,
-        #C08CF4 100%
+        #87CEEB 0%,
+        #B0E0E6 15%,
+        #FFE4B5 25%,
+        #FFDAB9 35%,
+        #FFD7B5 45%,
+        #E8D4C8 55%,
+        #D9C5D0 65%,
+        #C8B5D0 75%,
+        #A89FD0 85%,
+        #90A090 100%
       );
     background-attachment: fixed;
     background-size: cover;
