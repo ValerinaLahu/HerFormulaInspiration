@@ -9,15 +9,48 @@
 
   body {
     @apply text-fairytale-forest font-serif;
-    background: linear-gradient(135deg, #FFFAF7 0%, #F8D9D4 15%, #F2C5C8 30%, #E8B0C8 50%, #D898D0 70%, #C880D8 85%, #B878E0 100%);
+    background:
+      radial-gradient(ellipse at 25% 40%, rgba(255, 215, 120, 0.25) 0%, transparent 45%),
+      radial-gradient(ellipse at 75% 30%, rgba(232, 180, 200, 0.2) 0%, transparent 40%),
+      radial-gradient(ellipse at 85% 70%, rgba(200, 150, 230, 0.15) 0%, transparent 50%),
+      linear-gradient(to bottom,
+        #FFFBF7 0%,
+        #FFF3EB 10%,
+        #FFEAE0 20%,
+        #FFE1D6 30%,
+        #F5D4CB 40%,
+        #EFC9CC 50%,
+        #E8BDD4 60%,
+        #E0B2DC 70%,
+        #D8A6E4 80%,
+        #CC98EC 90%,
+        #C08CF4 100%
+      );
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    position: relative;
   }
 
   html {
-    background: linear-gradient(135deg, #FFFAF7 0%, #F8D9D4 15%, #F2C5C8 30%, #E8B0C8 50%, #D898D0 70%, #C880D8 85%, #B878E0 100%);
+    background:
+      radial-gradient(ellipse at 25% 40%, rgba(255, 215, 120, 0.25) 0%, transparent 45%),
+      radial-gradient(ellipse at 75% 30%, rgba(232, 180, 200, 0.2) 0%, transparent 40%),
+      radial-gradient(ellipse at 85% 70%, rgba(200, 150, 230, 0.15) 0%, transparent 50%),
+      linear-gradient(to bottom,
+        #FFFBF7 0%,
+        #FFF3EB 10%,
+        #FFEAE0 20%,
+        #FFE1D6 30%,
+        #F5D4CB 40%,
+        #EFC9CC 50%,
+        #E8BDD4 60%,
+        #E0B2DC 70%,
+        #D8A6E4 80%,
+        #CC98EC 90%,
+        #C08CF4 100%
+      );
     background-attachment: fixed;
     background-size: cover;
   }
