@@ -3,7 +3,7 @@ import Footer from '@/components/Footer'
 
 export default function About() {
   return (
-    <div className="min-h-screen bg-fairytale-cream">
+    <div className="min-h-screen">
       <Header />
 
       <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

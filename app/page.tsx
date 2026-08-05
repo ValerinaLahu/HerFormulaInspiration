@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-fairytale-cream">
+    <div className="min-h-screen">
       <Header />
 
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
@@ -77,23 +77,24 @@ export default function Home() {
       <section className="bg-gradient-to-r from-fairytale-lavender/15 via-fairytale-gold/10 to-fairytale-rose/15 py-16 my-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h3 className="text-2xl text-fairytale-forest font-normal mb-4">Stay Connected</h3>
-          <p className="text-fairytale-muted mb-6">Follow our journey for behind-the-scenes content and creative inspiration</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <p className="text-fairytale-muted mb-8">Follow our journey for behind-the-scenes content and creative inspiration</p>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
             <a
               href="https://www.instagram.com/heroutfitformula"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-fairytale-rose text-white rounded-full font-serif hover:bg-opacity-90 transition-all shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-fairytale-rose text-white rounded-full font-serif hover:bg-opacity-90 transition-all shadow-lg hover:shadow-sparkle animate-sparkle"
             >
-              Follow on Instagram ✨
+              📷 Instagram
             </a>
+            <span className="text-fairytale-gold text-2xl animate-pulse">✨</span>
             <a
               href="https://www.tiktok.com/@heroutfitformula"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-3 bg-fairytale-forest text-white rounded-full font-serif hover:bg-opacity-90 transition-all shadow-lg"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-fairytale-forest text-white rounded-full font-serif hover:bg-opacity-90 transition-all shadow-lg hover:shadow-sparkle animate-sparkle"
             >
-              Follow on TikTok ✨
+              🎬 TikTok
             </a>
           </div>
         </div>

@@ -13,7 +13,7 @@ const ceramics = [
 
 export default function Ceramics() {
   return (
-    <div className="min-h-screen bg-fairytale-cream">
+    <div className="min-h-screen">
       <Header />
 
       <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
